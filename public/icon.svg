@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1125 824.23">
+  <!-- Generator: Adobe Illustrator 29.1.0, SVG Export Plug-In . SVG Version: 2.1.0 Build 142)  -->
+  <defs>
+    <style>
+      .st0 {
+        fill: #ffdc00;
+      }
+
+      .st1 {
+        fill: none;
+      }
+
+      .st2 {
+        fill: #32475b;
+      }
+
+      .st3 {
+        clip-path: url(#clippath);
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="st1" width="1125" height="825"/>
+    </clipPath>
+  </defs>
+  <polygon class="st0" points="18.59 430.53 1104.71 389.17 1103.95 762.96 18.59 806.62 18.59 430.53"/>
+  <g class="st3">
+    <path class="st2" d="M1074.3,752.55l-1023.59,45.24c-6.41.46-12.73-1.73-17.48-6.05-4.76-4.32-7.54-10.4-7.7-16.82l.13-129.07,1073.56-50.35v131.88c0,13.29-11.24,24.54-24.92,25.18M38.3,442.91l1048.39-46s12.52,0,12.52,12.01v148.24L25.79,607.64v-150.67c0-12.01,12.52-14.06,12.52-14.06M1099.21,371.35L319.7.76S4.82,177.24.48,430.13l-.25,5.11v364.46c0,14.05,11.5,25.05,25.56,24.41l1067.43-49.07,28.5-1.28c1.66-.13,3.07-11.63,3.07-25.69v-338.39c0-25.56-25.56-38.34-25.56-38.34"/>
+  </g>
+</svg>
