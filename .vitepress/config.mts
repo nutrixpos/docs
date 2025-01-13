@@ -10,7 +10,9 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: 'Docs', link: '/api-examples' },
+      { text: 'Support', link: '/api-examples' },
+      { text: 'Contact', link: '/api-examples' },
     ],
 
     sidebar: [
@@ -18,7 +20,7 @@ export default defineConfig({
         text: 'Examples',
         items: [
           { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: 'Runtime API Examples', link: '/api-examples' },
         ]
       }
     ],
@@ -31,7 +33,7 @@ export default defineConfig({
 
     footer: {
       message: 'Released under the GPL-2.0 License.',
-      copyright: 'Copyright © 2025'
+      copyright: 'Copyright © 2025 Amr Elmawardy'
     }
   },
   // vite: {

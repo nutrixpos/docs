@@ -4,6 +4,12 @@ import type { Theme } from 'vitepress'
 import DefaultTheme from 'vitepress/theme'
 import './style.css'
 
+
+import PrimeVue from 'primevue/config';
+import 'primeicons/primeicons.css'
+import Aura from '@primevue/themes/aura';
+import 'primeflex/primeflex.css'
+
 export default {
   extends: DefaultTheme,
   Layout: () => {
@@ -12,6 +18,10 @@ export default {
     })
   },
   enhanceApp({ app, router, siteData }) {
-    // ...
+    app.use(PrimeVue, {
+        theme: {
+            preset: Aura
+        }
+    })
   }
 } satisfies Theme
