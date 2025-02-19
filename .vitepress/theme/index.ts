@@ -9,6 +9,7 @@ import PrimeVue from 'primevue/config';
 import 'primeicons/primeicons.css'
 import Aura from '@primevue/themes/aura';
 import 'primeflex/primeflex.css'
+import { Button, Image } from 'primevue';
 
 export default {
   extends: DefaultTheme,
@@ -23,5 +24,7 @@ export default {
             preset: Aura
         }
     })
+    app.component('Image',Image)
+    app.component('Button',Button)
   }
 } satisfies Theme

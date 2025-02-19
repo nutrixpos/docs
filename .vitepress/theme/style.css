@@ -77,7 +77,7 @@
 :root {
   --vp-c-brand-1: #2e4762;
   --vp-c-brand-2: #425971;
-  --vp-c-brand-3: ##6c7e91;
+  --vp-c-brand-3: #6c7e91;
   --vp-button-brand-text: white;
   --vp-button-brand-border: transparent;
   --vp-button-brand-bg: var(--vp-c-brand-1);
@@ -102,6 +102,12 @@
   --vp-button-brand-active-border: transparent;
   --vp-button-brand-active-text: var(--vp-button-brand-text);
   --vp-button-brand-active-bg: var(--vp-c-brand-1);
+}
+
+.p-button-outlined {
+  background: transparent;
+  border-color: var(--vp-c-brand-1);
+  color: var(--vp-c-brand-1);
 }
 
 /**
@@ -187,3 +193,7 @@
   font-size: 1.2rem;
 }
 
+.p-image-toolbar{
+  background-color: rgba(0, 0, 0, 0.3) !important;
+  backdrop-filter: blur(3px);
+}

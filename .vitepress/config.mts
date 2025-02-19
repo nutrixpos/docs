@@ -10,23 +10,24 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
+      { text: 'Get started', link: '/getting_started' },
+      { text: 'Support', link: '/' },
       { text: 'Docs', link: '/api-examples' },
-      { text: 'Support', link: '/api-examples' },
-      { text: 'Contact', link: '/api-examples' },
+      { text: 'About us', link: '/api-examples' },
     ],
 
     sidebar: [
       {
-        text: 'Examples',
+        text: 'Documentation',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' },
+          { text: 'Architecture', link: '/architecture' },
+          { text: 'Getting started', link: '/getting_started' },
         ]
       }
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/elmawardy/nutrix' }
+      { icon: 'github', link: 'https://github.com/nutrixpos' }
     ],
 
     logo: { light: '/logo.png', dark: 'logo-inverse.png', alt: 'logo' },
