@@ -32,17 +32,6 @@ features:
     details: Have good observability to inventory consumption and receive alerts on low stock.
 ---
 
-<!-- <div class="my-8 py-3">
-  <h1 align=center>
-      Seamless experience
-  </h1>
-  <div style="display:flex;align-items:center;justify-content:center;">
-    <h4 align=center class="w-9 lg:w-6" style="color:var(--vp-c-text-2)">
-       Our mission is not only to solve the problem, but also to make the experience as delightful and fun as possible.
-    </h4>
-  </div>
-</div> -->
-
 <div class="grid pt-0 mt-7 py-6 px-5" style="background-color:var(--vp-c-bg-soft);border-radius: 12px;">
   <div class="col-12 lg:col-5 lg:pr-6 lg:pt-3">
     <h1>An intuitive <span class="gradiented">interface</span></h1>
@@ -72,30 +61,23 @@ features:
   </div>
 </div>
 
-
-<!-- <div class="grid pt-0 lg:mt-6 pb-8">
-  <div class="col-12 lg:col-7 mt-3 lg:mt-0 flex justify-content-center align-items-center">
-    <img src="./assets/cashier.png" style="border-radius: 10px;"/>
-  </div>
-  <div class="col-12 lg:col-5 lg:pl-6 lg:pt-3 text-center lg:text-justify">
-    <h1>An intuitive <span class="gradiented">interface</span></h1>
-    <h4 class="mt-3" style="color:var(--vp-c-text-2)">
-      Specifically built for restaurants, which eliminates the unwanted complexities and helps you focus on what really matters.
-    </h4>
-  </div>
-</div> -->
-
-<div class="grid p-6 mt-3">
-  <div class="col-12" style="text-align: center;">
+<div class="grid p-5 mt-3">
+  <div class="col-12 md:col-6">
       <h1>Stay<span class="gradiented"> free</span> stay open source</h1>
       <h5 class="mt-3" style="color:var(--vp-c-text-2)">
-        Open source is a software development movement, which is not only about providing a free software for the people, but also about building a community that cooperate on building something that matters for everyone.
-        With no discriminations, political or financial constraints.
+          Open source is more than free software—it’s about building a community that works together to create something meaningful for everyone.
       </h5>
   </div>
-  <div class="col-12 flex align-items-center justify-content-center">
-    <Button label="Contribute" icon="pi pi-code" outlined size="small" class="mx-1"/>
-    <Button label="Sponsor" icon="pi pi-heart" outlined size="small"   class="mx-1"/>
+  <div class="col-12 flex m-0 mt-2 p-0">
+    <a href="https://github.com/nutrixpos/">
+      <Button style="background-color: var(--vp-c-brand); border-color:var(--vp-c-brand);color:var(--vp-button-brand-text)" rounded label="Contribute" icon="pi pi-github" size="small" class="mx-1"/>
+    </a>
+    <a href="https://t.me/nutrixpos">
+      <Button style="color:#3390EC;background-color:white;" severity="secondary" rounded label="Connect" icon="pi pi-telegram" size="small" class="mx-1"/>
+    </a>
+    <a href="/sponsor">
+      <Button style="color:#F15669;background-color:white;" severity="secondary" rounded label="Sponsor" icon="pi pi-heart" size="small" class="mx-1"/>
+    </a>
   </div>
 </div>
 

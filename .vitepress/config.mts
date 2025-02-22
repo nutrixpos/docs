@@ -11,17 +11,17 @@ export default defineConfig({
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Get started', link: '/getting_started' },
-      { text: 'Support', link: '/' },
-      { text: 'Docs', link: '/api-examples' },
-      { text: 'About us', link: '/api-examples' },
+      { text: 'Support', link: '/support' },
+      { text: 'Docs', link: '/architecture' },
+      { text: 'Sponsor', link: '/sponsor' },
     ],
 
     sidebar: [
       {
         text: 'Documentation',
         items: [
-          { text: 'Architecture', link: '/architecture' },
           { text: 'Getting started', link: '/getting_started' },
+          { text: 'Architecture', link: '/architecture' },
         ]
       }
     ],

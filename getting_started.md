@@ -15,23 +15,27 @@ This section demonstrates how to install the nutrix service using [docker-compos
 git clone https://github.com/nutrixpos/devops.git
 ```
 
-### 2. Change directory to the devops repo dir and then run docker-compose up
+
+### 2. Configure zitadel domain name resolution.
+Change directory to the devops repo dir and then run docker-compose up
+
 ```sh
 cd devops
 docker-compose up --build -d
 ```
 
-### 3. Configure zitadel domain name resolution.
 Add zitadel domain to hosts file so that zitadel domain name refers to 127.0.0.1 (localhost) by your local DNS. 
 - On **Windows** open `C:\Windows\System32\drivers\etc\hosts` and add the following entry : `127.0.0.1 zitadel`
 
-### 4. Configure frontend auth in zitadel
+### 3. Configure frontend auth in zitadel
 Open zitadel service url, by default configured at [zitadel:8080](http://zitadel:8080) and login using the following credentials:
 
 - **username**: `zitadel-admin@zitadel.zitadel`
 - **password**: `Password1!`
 
-Create a "User agent" project on zitadel and set the **Redirect Settings** as follows:
+Create a new project and name it "nutrix"
+
+Create a "User agent" app inside "nutrix" project and set the **Redirect Settings** as follows:
 - Redirect URIs: `http://localhost:3000/auth/signinwin/zitadel`
 
 which refers to the frontend URI
@@ -40,7 +44,7 @@ which refers to the frontend URI
     ensure the trailing '/'
 :::
 
-Now save the `Client ID` found in the Configuration tab in the zitadel "User agent" project and the `Project ID` found in the URI after the /project/ section
+Now save the `Client ID` found in the Configuration tab in the zitadel "User agent" app and the `Project ID` found in the URI after the /project/ section
 
 
 Open .env inside the devops dir and set the following environment variables:
@@ -50,10 +54,10 @@ VUE_APP_ZITADEL_PROJECT_RESOURCE_ID=<Client ID from the last step>
 VUE_APP_ZITADEL_CLIENT_ID=<Project ID from last step>
 ```
 
-### 5. Configure pos api (backend) auth against zitadel
-Open zitadel console and create a new "API" project, in the configuration section, add a new key and download it to `devops/pos_mnt/zitadel-key.json`
+### 4. Configure pos api (backend) auth against zitadel
+Open zitadel console and create a new "API" app inside the nutrix, in the configuration section, add a new key and download it to `devops/pos_mnt/zitadel-key.json`
 
-### 6. Configure autostarting
+### 5. Configure autostarting
 
 ::: info
 For **Windows** users !
@@ -90,6 +94,7 @@ After=docker.service
 Type=oneshot
 RemainAfterExit=yes
 WorkingDirectory=/path/to/your/devops_repo
+ExecStartPre=/usr/bin/docker-compose down
 ExecStart=/usr/bin/docker-compose up -d
 ExecStop=/usr/bin/docker-compose down
 Restart=no
@@ -108,7 +113,12 @@ sudo systemctl enable nutrix.service
 sudo systemctl start nutrix.service
 ```
 
-### 7. Open nutrix console
+### 7. Authorization
+Open zitadel console at [http://zitadel:8080](https://zitadel:8080) and press on the project `nutrix` then press the `Roles` tab, then add three roles "admin", "cashier" & "chef"
+
+Now go to the `Authorizations` tab at the top of the navbar, then click on `+ New` then choose the user `zitadel-admin@zitadel.zitadel` and then add "admin" role to it
+
+### 8. Open nutrix console
 Open nutrix console at http://localhost:3000
 
 
