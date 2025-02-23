@@ -7,7 +7,7 @@ hero:
   text: "The Piece of Cake <span class='gradiented'>Restaurant Management System</span>"
   tagline: A minimalist open source restaurant management system.
   image:
-    src: /icon.svg
+    src: https://elmawardy.sirv.com/Images/nutrix_wallpaper.png
     alt: nutrix-icon
   actions:
     - theme: brand
@@ -61,7 +61,7 @@ features:
   </div>
 </div>
 
-<div class="grid p-5 mt-3">
+<div class="grid md:p-5 mt-3">
   <div class="col-12 md:col-6">
       <h1>Stay<span class="gradiented"> free</span> stay open source</h1>
       <h5 class="mt-3" style="color:var(--vp-c-text-2)">
