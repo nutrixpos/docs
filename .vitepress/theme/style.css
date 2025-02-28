@@ -43,36 +43,35 @@
  *   in custom container, badges, etc.
  * -------------------------------------------------------------------------- */
 
+ body {
+  overflow-x: hidden
+ }
+
 .image-src{
-  width:110%;
-  max-width: 110% !important;
-  max-height: 110% !important;
+  width:100%;
+  max-width: 100% !important;
+  max-height: 100% !important;
 }
  
 
 @media (min-width: 960px) {
     .image-src {
-        width:110%;
-        max-width: 110% !important;
-        max-height: 110% !important;
+        width:130% !important;
+        max-width: 130% !important;
+        max-height: 130% !important;
+        margin-left: 10%;
     }
 }
 
 @media (min-width: 640px) {
     .image-src {
-      width:110%;
-      max-width: 110% !important;
-      max-height: 110% !important;
+      width:130%;
+      max-width: 130% !important;
+      max-height: 130% !important;
+      margin-left: 10%;
     }
 }
 
-@media (min-width: 960px) {
-  .image-src {
-    width:110%;
-    max-width: 110% !important;
-    max-height: 110% !important;
-  }
-}
 
 
  :root {

@@ -10,6 +10,15 @@ This page demonstrates the **installation** process of the [nutrix restaurant ma
 
 This section demonstrates how to install the nutrix service using [docker-compose](https://docs.docker.com/compose/).
 
+::: tip
+On windows make sure [WSL2](https://learn.microsoft.com/en-us/windows/wsl/install) is installed before proceeding.
+:::
+
+::: info
+Make sure that [git](https://git-scm.com/) , [docker](https://www.docker.com/) and [docker-compose](https://docs.docker.com/compose/) are installed
+
+:::
+
 ### 1. Clone the devops repo
 ```sh
 git clone https://github.com/nutrixpos/devops.git
