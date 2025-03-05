@@ -11,10 +11,10 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Get started', link: '/getting_started' },
-      { text: 'Support', link: '/support' },
-      { text: 'Docs', link: '/architecture' },
-      { text: 'Sponsor', link: '/sponsor' },
+      { text: 'Get started', link: '/getting_started.html' },
+      { text: 'Support', link: '/support.html' },
+      { text: 'Docs', link: '/architecture.html' },
+      { text: 'Sponsor', link: '/sponsor.html' },
     ],
 
     sidebar: [

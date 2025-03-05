@@ -115,7 +115,7 @@ features:
     <a href="https://t.me/nutrixpos">
       <Button style="color:#3390EC;background-color:white;" severity="secondary" rounded label="Connect" icon="pi pi-telegram" size="small" class="mx-1"/>
     </a>
-    <a href="/sponsor">
+    <a href="/sponsor.html">
       <Button style="color:#F15669;background-color:white;" severity="secondary" rounded label="Sponsor" icon="pi pi-heart" size="small" class="mx-1"/>
     </a>
   </div>
