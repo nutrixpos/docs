@@ -28,6 +28,10 @@ git clone https://github.com/nutrixpos/devops.git
 ### 2. Configure zitadel domain name resolution.
 Change directory to the devops repo dir and then run docker-compose up
 
+::: tip
+On Linux it's recommended to use `make up, make down, make update` instead of directly use docker-compose commands, this will run the pre up script and inject the app version inside the app
+:::
+
 ```sh
 cd devops
 docker-compose up --build -d
