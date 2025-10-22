@@ -5,14 +5,14 @@ layout: home
 hero:
   name: ""
   text: "The Piece of Cake <span class='gradiented'>Restaurant Management System</span>"
-  tagline: A minimalist open source restaurant management system.
+  tagline: A minimalist open source approach.
   image:
     src: https://elmawardy.sirv.com/Images/nutrix_wallpaper2-min.png
     alt: nutrix-icon
   actions:
     - theme: brand
-      text: Start now - it's free
-      link: /getting_started
+      text: Download now - it's free ↗
+      link: https://github.com/nutrixpos/pos/releases/latest
     - theme: alt
       text: Meet an advisor
       link: /support
@@ -26,10 +26,10 @@ features:
     details: On demand simple interface for displaying and finishing orders, to be used inside the kitchen
   - title: Inventory
     icon: 🗄️
-    details: Easily manage your inventory and get information about the low stock
+    details: Easily manage your inventory and stay notified about low stock
   - title: Reports
     icon: 📈
-    details: Have good observability to inventory consumption and receive alerts on low stock
+    details: Observe inventory consumptions, sales and profit per day down to the product's components level.
 ---
 
 <div class="grid pt-0 mt-6 py-6 px-0">

@@ -11,9 +11,9 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Get started', link: '/getting_started.html' },
+      { text: 'Downloads', link: 'https://github.com/nutrixpos/pos/releases' },
       { text: 'Support', link: '/support.html' },
-      { text: 'Docs', link: '/architecture.html' },
+      { text: 'Docs', link: '/getting_started.html' },
       { text: 'Sponsor', link: '/sponsor.html' },
     ],
 
