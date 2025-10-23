@@ -2,9 +2,14 @@
 outline: deep
 ---
 
-# Getting started
+# Installation
 
 This page demonstrates the **installation** process of the [nutrix restaurant management system](/), to get more details about the nutrix system architecture, kindly check the following [architecture](/architecture) page
+
+
+## Install using a package manager
+
+You can install the desired app version using the available installation managers for your platform, for more information check the [releases](https://github.com/nutrixpos/pos/releases) page, at the moment of writing windows64 is the only available target.
 
 ## Install using docker-compose
 
