@@ -35,7 +35,7 @@ export default defineConfig({
 
     footer: {
       message: 'Released under the GPL-2.0 License.',
-      copyright: 'Copyright © 2025 Amr Elmawardy'
+      copyright: 'Copyright © 2025 <a href="https://linkedin.com/in/amr-el-mawardy">Amr Elmawardy</a>'
     }
   },
   // vite: {
