@@ -62,13 +62,13 @@ features:
     </ol>
   </div>
   <div class="col-12 lg:col-7 mt-3 lg:mt-0 flex justify-content-center align-items-center">
-    <Image src="https://elmawardy.sirv.com/Images/nutrix_cashier3.png" style="box-shadow: -2px 2px 5px rgba(0, 0, 0, 0.3);" alt="Image" preview />
+    <Image src="https://elmawardy.sirv.com/Images/nutrix_cashier3.png" alt="Image" preview />
   </div>
 </div>
 
 <div class="grid pt-0 pb-6 pt-5 px-0">
   <div class="col-12 lg:col-7 mt-3 lg:mt-0 flex justify-content-center align-items-center">
-    <Image src="https://elmawardy.sirv.com/Images/admin.png" style="box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);" alt="Image" preview />
+    <Image src="https://elmawardy.sirv.com/Images/admin.png" alt="Image" preview />
   </div>
   <div class="col-12 lg:col-5 lg:pl-6 lg:pt-3">
     <h1><span class="gradiented">Administrate</span> with ease</h1>
@@ -99,6 +99,23 @@ features:
     </ul>
   </div>
 </div>
+
+<Card class="mb-6 mt-3">
+    <template #content>
+        <p class="m-0 grid">
+            <div class="lg:col-6 col-12 flex flex-column justify-content-center">
+              <h3 style="font-size:2rem">Nutrix hub</h3>
+              <p class="p-1 mt-3">
+                Powerful SaaS platform that turns data from your NutrixPOS instances into actionable growth insights. Get AI-driven sales offers, monitor real-time performance and inventory, and access dedicated support—all from one centralized hub.
+              </p>
+            </div>
+            <div class="lg:col-6 col-12">
+              <Image src="https://elmawardy.sirv.com/Screenshot%202025-11-09%20165115.png" alt="Image" preview />
+            </div>
+        </p>
+    </template>
+</Card>
+
 
 
 <div class="grid md:p-5 mt-3">

@@ -12,8 +12,9 @@ export default defineConfig({
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Downloads', link: 'https://github.com/nutrixpos/pos/releases' },
-      { text: 'Support', link: '/support.html' },
       { text: 'Docs', link: '/getting_started.html' },
+      { text: 'Pricing', link: '/pricing.html' },
+      { text: 'Support', link: '/support.html' },
       { text: 'Sponsor', link: '/sponsor.html' },
     ],
 

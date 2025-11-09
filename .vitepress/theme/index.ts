@@ -9,7 +9,7 @@ import PrimeVue from 'primevue/config';
 import 'primeicons/primeicons.css'
 import Aura from '@primevue/themes/aura';
 import 'primeflex/primeflex.css'
-import { Button, Image } from 'primevue';
+import { Button, Image, Card,Badge } from 'primevue';
 
 export default {
   extends: DefaultTheme,
@@ -26,5 +26,7 @@ export default {
     })
     app.component('Image',Image)
     app.component('Button',Button)
+    app.component('Card',Card)
+    app.component('Badge',Badge)
   }
 } satisfies Theme
