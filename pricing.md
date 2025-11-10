@@ -97,8 +97,8 @@ in the world.
         </template>
         <template #content>
             <div class="flex-column flex gap-3 mt-3">
-                <p class="text-center my-0" style="font-size:1rem;text-decoration: line-through;line-height: 0px;margin-top:-0.5rem;">$60/month</p>
-                <p class="text-center my-0" style="font-size:1.5rem;line-height: 1rem;">$50/month</p>
+                <p class="text-center my-0" style="font-size:1rem;text-decoration: line-through;line-height: 0px;margin-top:-0.5rem;">EGP 3,000 /month</p>
+                <p class="text-center my-0" style="font-size:1.5rem;line-height: 1rem;">EGP 2,499 /month</p>
                 <p class="my-2 p-2">
                     Turn insight into action. Get in depth insights on each order down to components cost, pinpoint profitable dishes, and use AI to create offers that fill your seats.
                 </p>
