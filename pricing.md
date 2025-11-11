@@ -55,7 +55,7 @@ in the world.
             <div class="flex gap-1 flex-column justify-content-stasrt align-items-start">
                 <Badge size="xlarge" value="FREE"  style="background-color: silver;color:black"/>
                 <p class="my-2 p-2" style="font-size:1rem;font-weight: 400;">
-                    Get started with the basics. See your daily profit and manage your inventory in one place. No credit card required.
+                    Get started with the basics. See your daily cost / profit in one place. No credit card required.
                 </p>
             </div>
         </template>
@@ -65,13 +65,13 @@ in the world.
                     ✅&nbsp; <span>Total sales, cost, profit / day</span>
                 </div>
                 <div class="flex">
-                    ✅&nbsp; <span>Inventory stock quantities</span>
-                </div>
-                <div class="flex">
                     ✅&nbsp; <span>Best selling products</span>
                 </div>
                 <div class="flex">
                     ✅&nbsp; <span>Sales, cost, profit, refunds / day trend chart</span>
+                </div>
+                <div class="flex">
+                    ❌&nbsp; <span>Inventory stock quantities</span>
                 </div>
                 <div class="flex">
                     ❌&nbsp; <span>Display all orders per day</span>
@@ -108,13 +108,13 @@ in the world.
                             ✅&nbsp; <span>Total sales, cost, profit / day</span>
                         </div>
                         <div class="flex">
-                            ✅&nbsp; <span>Inventory stock quantities</span>
-                        </div>
-                        <div class="flex">
                             ✅&nbsp; <span>Best selling products</span>
                         </div>
                         <div class="flex">
                             ✅&nbsp; <span>Sales, cost, profit, refunds / day trend chart</span>
+                        </div>
+                        <div class="flex">
+                            ✅&nbsp; <span>Inventory stock quantities</span>
                         </div>
                         <div class="flex">
                             ✅&nbsp; <span>Display all orders per day</span>
