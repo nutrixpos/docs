@@ -28,23 +28,17 @@ Make sure that [git](https://git-scm.com/) , [docker](https://www.docker.com/) a
 
 :::
 
-### 1. Clone the devops repo
+### 1. Clone the pos repo & run docker compose
 ```sh
-git clone https://github.com/nutrixpos/devops.git
-```
-
-
-### 2. Configure zitadel domain name resolution.
-Change directory to the devops repo dir and then run docker-compose up
-
-::: tip
-It's recommended to use [Taskfile](https://taskfile.dev/)  `task up, task down & task update` instead of directly use docker-compose commands, this will run the pre up script and inject the app version inside the app
-:::
-
-```sh
-cd devops
+git clone https://github.com/nutrixpos/pos.git
+cd pos
 docker-compose up --build -d
 ```
+
+
+## configure authentication **(Optional)**
+
+### 2. Configure zitadel domain name resolution.
 
 Add zitadel domain to hosts file so that zitadel domain name refers to 127.0.0.1 (localhost) by your local DNS. 
 - On **Windows** open `C:\Windows\System32\drivers\etc\hosts` and add the following entry : `127.0.0.1 zitadel`
@@ -69,15 +63,15 @@ which refers to the frontend URI
 Now save the `Client ID` found in the Configuration tab in the zitadel "User agent" app and the `Project ID` found in the URI after the /project/ section
 
 
-Open .env inside the devops dir and set the following environment variables:
+change the following vars inside the `docker-compose.yaml` file
 
-``` .env
-VUE_APP_ZITADEL_PROJECT_RESOURCE_ID=<Client ID from the last step>
-VUE_APP_ZITADEL_CLIENT_ID=<Project ID from last step>
+```
+VITE_APP_ZITADEL_PROJECT_RESOURCE_ID=<Client ID from the last step>
+VITe_APP_ZITADEL_CLIENT_ID=<Project ID from last step>
 ```
 
 ### 4. Configure pos api (backend) auth against zitadel
-Open zitadel console and create a new "API" app inside the nutrix, in the configuration section, add a new key and download it to `devops/pos_mnt/zitadel-key.json`
+Open zitadel console and create a new "API" app inside the nutrix, in the configuration section, add a new key and download it to `pos/mnt/zitadel-key.json`
 
 ### 5. Configure autostarting
 
@@ -115,7 +109,7 @@ After=docker.service
 [Service]
 Type=oneshot
 RemainAfterExit=yes
-WorkingDirectory=/path/to/your/devops_repo
+WorkingDirectory=/path/to/your/pos_repo
 ExecStartPre=/usr/bin/docker-compose down
 ExecStart=/usr/bin/docker-compose up -d
 ExecStop=/usr/bin/docker-compose down
@@ -125,7 +119,7 @@ Restart=no
 WantedBy=multi-user.target
 ```
 ::: tip
-Make sure you change **/path/to/your/devops_repo** in the above file to the devops repo path on your machine
+Make sure you change **/path/to/your/pos_repo** in the above file to the pos repo path on your machine
 :::
 
 Enable and start the service
