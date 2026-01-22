@@ -4,7 +4,7 @@ import { fileURLToPath, URL } from 'node:url'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "nutrix",
+  title: "NutrixPOS | Restaurants & Retail management system",
   description: "The Piece of Cake Restaurant management",
   ignoreDeadLinks: true,
   themeConfig: {
@@ -15,7 +15,7 @@ export default defineConfig({
       { text: 'Docs', link: '/getting_started.html' },
       { text: 'Pricing', link: '/pricing.html' },
       { text: 'About', link: '/about.html' },
-      { text: 'Support', link: '/support.html' },
+      { text: 'Connect', link: '/support.html' },
       { text: 'Sponsor', link: '/sponsor.html' },
     ],
 

@@ -2,7 +2,7 @@
 outline: deep
 ---
 
-# Support
+# Connect
 
 We’re here to help! If you have any questions, need assistance, or want to report an issue, feel free to reach out to us. Our team and community are ready to support you.
 

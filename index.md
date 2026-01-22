@@ -17,23 +17,57 @@ hero:
       text: Meet an advisor
       link: /support
 
-features:
-  - title: Cashier
-    icon: 🖨
-    details: Seamless order creation with high level of control to inventory consumption
-  - title: Kitchen
-    icon: 🍳
-    details: On demand simple interface for displaying and finishing orders, to be used inside the kitchen
-  - title: Inventory
-    icon: 🗄️
-    details: Easily manage your inventory and stay notified about low stock
-  - title: Reports
-    icon: 📈
-    details: Observe inventory consumptions, sales and profit per day down to the product's components level.
+# features:
+#   - title: Cashier
+#     icon: 🖨
+#     details: Seamless order creation with high level of control to inventory consumption
+#   - title: Kitchen
+#     icon: 🍳
+#     details: On demand simple interface for displaying and finishing orders, to be used inside the kitchen
+#   - title: Inventory
+#     icon: 🗄️
+#     details: Easily manage your inventory and stay notified about low stock
+#   - title: Reports
+#     icon: 📈
+#     details: Observe inventory consumptions, sales and profit per day down to the product's components level.
 ---
 
-<div class="grid pt-0 mt-6 py-6 px-0">
-  <div class="col-12 lg:col-5 lg:pr-6 lg:pt-3">
+## What's new
+<h4 style="color:var(--vp-c-text-2)">
+  Catch up on the recent launches, events, and success stories across NutrixPOS.
+</h4>
+
+<Card style="width: 25rem; overflow: hidden" class="mt-6">
+    <template #header>
+        <div style="width: 100%;height: 14rem;background-color: var(--vp-c-text-2);">
+          <img alt="user header" src="https://qatar.websummit.com/appearances/qat26/30cc42e0-0e4d-4008-a9f7-a3c4fa7458ee/social-card.png" style="width: 100%;height: 100%;object-fit: cover;" />
+        </div>
+    </template>
+    <template #content>
+            <h4 class="m-0 p-0">Web Summit Qatar 2026</h4>
+            <p class="m-0 p-0" style="line-height: 1.5;">
+                NutrixPOS was featured in the <a href="https://qatar.websummit.com/">Web Summit Qatar 2026</a> exhibition. We would love to connect with you there !
+            </p>
+    </template>
+    <template #footer>
+        <div class="flex gap-4 mt-1">
+            <p class="m-0">
+                Use code NUTRIXPOS on checkout for 20% discount on the ticket.
+            </p>
+            <a href="https://qatar.websummit.com/" target="_blank">
+              <Button variant="text" icon="pi pi-external-link" />
+            </a>
+        </div>
+    </template>
+</Card>
+
+
+
+
+
+## Explore
+<div class="grid pt-0 py-6 px-0">
+  <div class="col-12 lg:col-5 lg:pr-6">
     <h1>Intuitive <span class="gradiented">order creation</span> experience</h1>
     <h4 class="mt-3" style="color:var(--vp-c-text-2)">
       Specifically built for restaurants, which eliminates the unwanted complexities and helps you focus on what really matters.
