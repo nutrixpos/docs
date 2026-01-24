@@ -40,7 +40,7 @@ hero:
 <Card style="width: 25rem; overflow: hidden" class="mt-6">
     <template #header>
         <div style="width: 100%;height: 14rem;background-color: var(--vp-c-text-2);">
-          <img alt="user header" src="https://qatar.websummit.com/appearances/qat26/30cc42e0-0e4d-4008-a9f7-a3c4fa7458ee/social-card.png" style="width: 100%;height: 100%;object-fit: cover;" />
+          <img alt="user header" src="https://qatar.websummit.com/wp-media/2024/02/Centre-Stage-Opening-Night-Welcome-to-Web-Summit-Qatar--1024x683.jpg" style="width: 100%;height: 100%;object-fit: cover;" />
         </div>
     </template>
     <template #content>
@@ -52,7 +52,7 @@ hero:
     <template #footer>
         <div class="flex gap-4 mt-1">
             <p class="m-0">
-                Use code NUTRIXPOS on checkout for 20% discount on the ticket.
+                Try NUTRIXPOS voucher on checkout for 20% discount on the ticket.
             </p>
             <a href="https://qatar.websummit.com/" target="_blank">
               <Button variant="text" icon="pi pi-external-link" />
