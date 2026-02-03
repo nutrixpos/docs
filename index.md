@@ -32,34 +32,68 @@ hero:
 #     details: Observe inventory consumptions, sales and profit per day down to the product's components level.
 ---
 
-## What's new
-<h4 style="color:var(--vp-c-text-2)">
+<h2 class="text-center">What's new</h2>
+<h4 style="color:var(--vp-c-text-2)" class="text-center">
   Catch up on the recent launches, events, and success stories across NutrixPOS.
 </h4>
 
-<Card style="width: 25rem; overflow: hidden" class="mt-6">
-    <template #header>
-        <div style="width: 100%;height: 14rem;background-color: var(--vp-c-text-2);">
-          <img alt="user header" src="https://qatar.websummit.com/wp-media/2024/02/Centre-Stage-Opening-Night-Welcome-to-Web-Summit-Qatar--1024x683.jpg" style="width: 100%;height: 100%;object-fit: cover;" />
-        </div>
-    </template>
-    <template #content>
+<div class="flex mt-6 flex-wrap gap-3 justify-content-center">
+  <Card style="width: 20rem; overflow: hidden">
+      <template #header>
+          <div style="width: 100%;height: 14rem;background-color: var(--vp-c-text-2);">
+            <img alt="user header" src="https://qatar.websummit.com/wp-media/2024/02/Centre-Stage-Opening-Night-Welcome-to-Web-Summit-Qatar--1024x683.jpg" style="width: 100%;height: 100%;object-fit: cover;" />
+          </div>
+      </template>
+      <template #content>
+          <div class="flex align-items-center gap-2">
+            <Badge>Event</Badge>
             <h4 class="m-0 p-0">Web Summit Qatar 2026</h4>
-            <p class="m-0 p-0" style="line-height: 1.5;">
-                NutrixPOS was featured in the <a href="https://qatar.websummit.com/">Web Summit Qatar 2026</a> exhibition. We would love to connect with you there !
+          </div>  
+          <p class="m-0 mt-3 p-0" style="line-height: 1.5;">
+              NutrixPOS was featured in the <a href="https://qatar.websummit.com/">Web Summit Qatar 2026</a> exhibition. We would love to connect with you there !
+          </p>
+      </template>
+      <template #footer>
+          <div class="flex gap-4 mt-1">
+              <a href="https://qatar.websummit.com/" target="_blank">
+                <Button variant="text" icon="pi pi-external-link" />
+              </a>
+          </div>
+      </template>
+  </Card>
+  <Card style="width: 20rem; overflow: hidden">
+      <template #header>
+          <div style="width: 100%;height: 14rem;background-color: var(--vp-c-text-2);">
+            <img alt="user header" src="https://elmawardy.sirv.com/nutrix_workflows_illustration.svg" style="width: 100%;height: 100%;object-fit: cover;" />
+          </div>
+      </template>
+      <template #content>
+            <div class="flex align-items-center gap-2">
+              <Badge style="background-color: #FFDC00;color:black ">Feature</Badge>
+              <h4 class="m-0 p-0"> Nutrix Workflows <span role="img" aria-label="rocket launch" class="ml-1">🚀</span></h4>
+            </div>
+            <p class="m-0 mt-3 p-0" style="line-height: 1.5;">
+                Now inside NutrixHub you can set up a workflow, so when your stock is going down you can automatically send a message, submit an order to your supplier, or whatever action you want to take with n8n powered workflows.
             </p>
-    </template>
-    <template #footer>
-        <div class="flex gap-4 mt-1">
-            <p class="m-0">
-                Try NUTRIXPOS voucher on checkout for 20% discount on the ticket.
+      </template>
+  </Card>
+    <Card style="width: 20rem; overflow: hidden">
+      <template #header>
+          <div style="width: 100%;height: 14rem;background-color: var(--vp-c-text-2);">
+            <img alt="user header" src="https://elmawardy.sirv.com/koptan_ai_illustration.svg" style="width: 100%;height: 100%;object-fit: cover;" />
+          </div>
+      </template>
+      <template #content>
+            <div class="flex align-items-center gap-2">
+              <Badge style="background-color: #FFDC00;color:black ">Feature</Badge>
+              <h4 class="m-0 p-0"> Koptan AI Assistant <span role="img" aria-label="rocket launch" class="ml-1">🚀</span></h4>
+            </div>
+            <p class="m-0 mt-3 p-0" style="line-height: 1.5;">
+                Koptan AI is an AI-powered chatbot that can help you with your orders, inventory, and sales.
             </p>
-            <a href="https://qatar.websummit.com/" target="_blank">
-              <Button variant="text" icon="pi pi-external-link" />
-            </a>
-        </div>
-    </template>
-</Card>
+      </template>
+  </Card>
+</div>
 
 
 
