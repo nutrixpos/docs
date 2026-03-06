@@ -21,10 +21,17 @@ export default defineConfig({
 
     sidebar: [
       {
+        text: 'User guide',
+        items: [
+          { text: 'Installation', link: '/userguide/installation' },
+        ]
+      },
+      {
         text: 'Documentation',
         items: [
-          { text: 'Installation', link: '/getting_started' },
           { text: 'Architecture', link: '/architecture' },
+          { text: 'Authentication', link: '/docs/authentication' },
+          { text: 'docker-compose', link: '/getting_started' },
         ]
       }
     ],
@@ -37,7 +44,7 @@ export default defineConfig({
 
     footer: {
       message: 'Released under the GPL-2.0 License.',
-      copyright: 'Copyright © 2025 <a href="https://linkedin.com/in/amr-el-mawardy">Amr Elmawardy</a>'
+      copyright: 'Copyright © 2026 <a href="https://linkedin.com/in/amr-el-mawardy">Amr Elmawardy</a>'
     }
   },
   // vite: {

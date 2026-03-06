@@ -7,7 +7,7 @@ hero:
   text: "The Piece of Cake <span class='gradiented'>Restaurant Management System</span>"
   tagline: A minimalist open source approach.
   image:
-    src: https://elmawardy.sirv.com/Images/nutrix_wallpaper2-min.png
+    src: "https://elmawardy.sirv.com/nutrixpos-docs/nutrixdocs0.png"
     alt: nutrix-icon
   actions:
     - theme: brand
@@ -96,12 +96,8 @@ hero:
 </div>
 
 
-
-
-
-## Explore
 <div class="grid pt-0 py-6 px-0">
-  <div class="col-12 lg:col-5 lg:pr-6">
+  <div class="col-12 lg:col-5 lg:pr-6 lg:mt-8 lg:pt-4">
     <h1>Intuitive <span class="gradiented">order creation</span> experience</h1>
     <h4 class="mt-3" style="color:var(--vp-c-text-2)">
       Specifically built for restaurants, which eliminates the unwanted complexities and helps you focus on what really matters.
@@ -130,15 +126,15 @@ hero:
     </ol>
   </div>
   <div class="col-12 lg:col-7 mt-3 lg:mt-0 flex justify-content-center align-items-center">
-    <Image src="https://elmawardy.sirv.com/Images/nutrix_cashier3.png" alt="Image" preview />
+    <Image src="https://elmawardy.sirv.com/nutrixpos-docs/nutrixdocs1.png" alt="Image" preview />
   </div>
 </div>
 
 <div class="grid pt-0 pb-6 pt-5 px-0">
   <div class="col-12 lg:col-7 mt-3 lg:mt-0 flex justify-content-center align-items-center">
-    <Image src="https://elmawardy.sirv.com/Images/admin.png" alt="Image" preview />
+    <Image src="https://elmawardy.sirv.com/nutrixpos-docs/Nutrix3.png" alt="Image" preview />
   </div>
-  <div class="col-12 lg:col-5 lg:pl-6 lg:pt-3">
+  <div class="col-12 lg:col-5 lg:pl-6 lg:pt-3 lg:mt-8 lg:pt-4">
     <h1><span class="gradiented">Administrate</span> with ease</h1>
     <h4 class="mt-3" style="color:var(--vp-c-text-2)">
       Easily manage your restaurant inventory and get insights about your sales
@@ -170,7 +166,7 @@ hero:
 
 <Card class="mb-6 mt-3">
     <template #content>
-        <p class="m-0 grid">
+        <div class="m-0 grid">
             <div class="lg:col-6 col-12 flex flex-column justify-content-center">
               <h3 style="font-size:2rem">Nutrix hub</h3>
               <p class="p-1 mt-3">
@@ -180,7 +176,7 @@ hero:
             <div class="lg:col-6 col-12">
               <Image src="https://elmawardy.sirv.com/Screenshot%202025-11-09%20165115.png" alt="Image" preview />
             </div>
-        </p>
+        </div>
     </template>
 </Card>
 
