@@ -231,3 +231,11 @@
   background-color: rgba(0, 0, 0, 0.3) !important;
   backdrop-filter: blur(3px);
 }
+
+.nutrixhub-section {
+  background: #E2EEFE !important;
+  background: linear-gradient(90deg,rgba(226, 238, 254, 1) 0%, rgba(250, 250, 255, 1) 35%, rgba(244, 235, 255, 1) 100%) !important;
+  --tw-shadow-colored: 0 25px 50px -12px var(--tw-shadow-color);
+  box-shadow:  0 0 #0000, 0 0 #0000, 0 25px 50px -12px rgb(0 0 0 / .25) !important;
+  border-radius: 2rem !important;
+}

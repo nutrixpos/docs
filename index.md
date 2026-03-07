@@ -3,9 +3,9 @@
 layout: home
 
 hero:
-  name: ""
-  text: "The Piece of Cake <span class='gradiented'>Restaurant Management System</span>"
-  tagline: A minimalist open source approach.
+  name: "NutrixPOS"
+  text: "Free Open Source Restaurant Management System"
+  tagline:
   image:
     src: "https://elmawardy.sirv.com/nutrixpos-docs/nutrixdocs0.png"
     alt: nutrix-icon
@@ -33,9 +33,9 @@ features:
 ---
 
 
-<div class="grid pt-8 mt-4 px-0">
+<div class="grid pt-4 mt-4 px-0">
   <div class="col-12 lg:col-5 lg:pr-6 lg:mt-8 lg:pt-4">
-    <h1>Intuitive <span class="gradiented">order creation</span> experience</h1>
+    <h1><span class="gradiented">Intuitive</span> order creation experience</h1>
     <h4 class="mt-3" style="color:var(--vp-c-text-2)">
       Specifically built for restaurants, which eliminates the unwanted complexities and helps you focus on what really matters.
     </h4>
@@ -72,7 +72,7 @@ features:
     <Image src="https://elmawardy.sirv.com/nutrixpos-docs/Nutrix3.png" alt="Image" preview />
   </div>
   <div class="col-12 lg:col-5 lg:pl-6 lg:pt-3 lg:mt-8 lg:pt-4">
-    <h1><span class="gradiented">Administrate</span> with ease</h1>
+    <h1>Administrate with <span class="gradiented">Ease</span></h1>
     <h4 class="mt-3" style="color:var(--vp-c-text-2)">
       Easily manage your restaurant inventory and get insights about your sales
     </h4>
@@ -101,14 +101,15 @@ features:
   </div>
 </div>
 
-<Card class="mb-6 mt-3">
+<Card class="mb-6 mt-8 nutrixhub-section">
     <template #content>
         <div class="m-0 grid">
             <div class="lg:col-6 col-12 flex flex-column justify-content-center">
-              <h3 style="font-size:2rem">Nutrix hub</h3>
+              <h3 style="font-size:2rem;">NutrixHub</h3>
               <p class="p-1 mt-3">
                 Powerful SaaS platform that turns data from your NutrixPOS instances into actionable growth insights. Get AI-driven sales offers, monitor real-time performance and inventory, and access dedicated support—all from one centralized hub.
               </p>
+              <a target="_blank" class="flex align-items-center" href="https://hub.nutrixpos.com">Know more &nbsp;<span class="pi pi-external-link"></span></a>
             </div>
             <div class="lg:col-6 col-12">
               <Image src="https://elmawardy.sirv.com/Screenshot%202025-11-09%20165115.png" alt="Image" preview />
