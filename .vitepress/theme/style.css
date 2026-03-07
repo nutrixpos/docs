@@ -57,8 +57,8 @@
 
 @media (min-width: 960px) {
     .image-src {
-        width:115% !important;
-        max-width: 115% !important;
+        width:110% !important;
+        max-width: 110% !important;
         height: auto !important;
         max-height: 200% !important;
         margin-left: 10%;
@@ -68,8 +68,8 @@
 
 @media (min-width: 640px) {
     .image-src {
-      width:115% !important;
-      max-width: 115% !important;
+      width:110% !important;
+      max-width: 110% !important;
       height: auto !important;
       max-height: 200% !important;
     }

@@ -17,86 +17,23 @@ hero:
       text: Meet an advisor
       link: /support
 
-# features:
-#   - title: Cashier
-#     icon: 🖨
-#     details: Seamless order creation with high level of control to inventory consumption
-#   - title: Kitchen
-#     icon: 🍳
-#     details: On demand simple interface for displaying and finishing orders, to be used inside the kitchen
-#   - title: Inventory
-#     icon: 🗄️
-#     details: Easily manage your inventory and stay notified about low stock
-#   - title: Reports
-#     icon: 📈
-#     details: Observe inventory consumptions, sales and profit per day down to the product's components level.
+features:
+  - title: Cashier
+    icon: 🖨
+    details: Seamless order creation with high level of control to inventory consumption
+  - title: Kitchen
+    icon: 🍳
+    details: On demand simple interface for displaying and finishing orders, to be used inside the kitchen
+  - title: Inventory
+    icon: 🗄️
+    details: Easily manage your inventory and stay notified about low stock
+  - title: Reports
+    icon: 📈
+    details: Observe inventory consumptions, sales and profit per day down to the product's components level.
 ---
 
-<h2 class="text-center">What's new</h2>
-<h4 style="color:var(--vp-c-text-2)" class="text-center">
-  Catch up on the recent launches, events, and success stories across NutrixPOS.
-</h4>
 
-<div class="flex mt-6 flex-wrap gap-3 justify-content-center">
-  <Card style="width: 20rem; overflow: hidden">
-      <template #header>
-          <div style="width: 100%;height: 14rem;background-color: var(--vp-c-text-2);">
-            <img alt="user header" src="https://qatar.websummit.com/wp-media/2024/02/Centre-Stage-Opening-Night-Welcome-to-Web-Summit-Qatar--1024x683.jpg" style="width: 100%;height: 100%;object-fit: cover;" />
-          </div>
-      </template>
-      <template #content>
-          <div class="flex align-items-center gap-2">
-            <Badge>Event</Badge>
-            <h4 class="m-0 p-0">Web Summit Qatar 2026</h4>
-          </div>  
-          <p class="m-0 mt-3 p-0" style="line-height: 1.5;">
-              NutrixPOS was featured in the <a href="https://qatar.websummit.com/">Web Summit Qatar 2026</a> exhibition. We would love to connect with you there !
-          </p>
-      </template>
-      <template #footer>
-          <div class="flex gap-4 mt-1">
-              <a href="https://qatar.websummit.com/" target="_blank">
-                <Button variant="text" icon="pi pi-external-link" />
-              </a>
-          </div>
-      </template>
-  </Card>
-  <Card style="width: 20rem; overflow: hidden">
-      <template #header>
-          <div style="width: 100%;height: 14rem;background-color: var(--vp-c-text-2);">
-            <img alt="user header" src="https://elmawardy.sirv.com/nutrix_workflows_illustration.svg" style="width: 100%;height: 100%;object-fit: cover;" />
-          </div>
-      </template>
-      <template #content>
-            <div class="flex align-items-center gap-2">
-              <Badge style="background-color: #FFDC00;color:black ">Feature</Badge>
-              <h4 class="m-0 p-0"> Nutrix Workflows <span role="img" aria-label="rocket launch" class="ml-1">🚀</span></h4>
-            </div>
-            <p class="m-0 mt-3 p-0" style="line-height: 1.5;">
-                Now inside NutrixHub you can set up a workflow, so when your stock is going down you can automatically send a message, submit an order to your supplier, or whatever action you want to take with n8n powered workflows.
-            </p>
-      </template>
-  </Card>
-    <Card style="width: 20rem; overflow: hidden">
-      <template #header>
-          <div style="width: 100%;height: 14rem;background-color: var(--vp-c-text-2);">
-            <img alt="user header" src="https://elmawardy.sirv.com/koptan_ai_illustration.svg" style="width: 100%;height: 100%;object-fit: cover;" />
-          </div>
-      </template>
-      <template #content>
-            <div class="flex align-items-center gap-2">
-              <Badge style="background-color: #FFDC00;color:black ">Feature</Badge>
-              <h4 class="m-0 p-0"> Koptan AI Assistant <span role="img" aria-label="rocket launch" class="ml-1">🚀</span></h4>
-            </div>
-            <p class="m-0 mt-3 p-0" style="line-height: 1.5;">
-                Koptan AI is an AI-powered chatbot that can help you with your orders, inventory, and sales.
-            </p>
-      </template>
-  </Card>
-</div>
-
-
-<div class="grid pt-0 py-6 px-0">
+<div class="grid pt-8 mt-4 px-0">
   <div class="col-12 lg:col-5 lg:pr-6 lg:mt-8 lg:pt-4">
     <h1>Intuitive <span class="gradiented">order creation</span> experience</h1>
     <h4 class="mt-3" style="color:var(--vp-c-text-2)">
@@ -130,7 +67,7 @@ hero:
   </div>
 </div>
 
-<div class="grid pt-0 pb-6 pt-5 px-0">
+<div class="grid pt-0 pb-8 px-0">
   <div class="col-12 lg:col-7 mt-3 lg:mt-0 flex justify-content-center align-items-center">
     <Image src="https://elmawardy.sirv.com/nutrixpos-docs/Nutrix3.png" alt="Image" preview />
   </div>
