@@ -112,7 +112,7 @@ features:
               <a target="_blank" class="flex align-items-center" href="https://hub.nutrixpos.com">Know more &nbsp;<span class="pi pi-external-link"></span></a>
             </div>
             <div class="lg:col-6 col-12">
-              <Image src="https://elmawardy.sirv.com/Screenshot%202025-11-09%20165115.png" alt="Image" preview />
+              <Image src="https://elmawardy.sirv.com/nutrixhub/nutrixhub.png" alt="Image" preview />
             </div>
         </div>
     </template>
