@@ -104,12 +104,12 @@ features:
 <Card class="mb-6 mt-8 nutrixhub-section">
     <template #content>
         <div class="m-0 grid">
-            <div class="lg:col-6 col-12 flex flex-column justify-content-center">
-              <h3 style="font-size:2rem;">NutrixHub</h3>
-              <p class="p-1 mt-3">
+            <div class="lg:col-6 col-12 flex flex-column justify-content-center" style="color:#334155">
+              <h3 style="font-size:2rem;color:#334155;">NutrixHub</h3>
+              <p class="p-1 mt-3" style="color:#334155">
                 Powerful SaaS platform that turns data from your NutrixPOS instances into actionable growth insights. Get AI-driven sales offers, monitor real-time performance and inventory, and access dedicated support—all from one centralized hub.
               </p>
-              <a target="_blank" class="flex align-items-center" href="https://hub.nutrixpos.com">Know more &nbsp;<span class="pi pi-external-link"></span></a>
+              <a target="_blank" style="color:#334155" class="flex align-items-center" href="https://hub.nutrixpos.com">Know more &nbsp;<span class="pi pi-external-link"></span></a>
             </div>
             <div class="lg:col-6 col-12">
               <Image src="https://elmawardy.sirv.com/nutrixhub/nutrixhub.png" alt="Image" preview />
