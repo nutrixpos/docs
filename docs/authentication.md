@@ -8,7 +8,7 @@ NutrixPOS uses [OIDC](https://openid.net/developers/how-connect-works/) for auth
 
 Kindly refer to the [Zitadel](https://zitadel.com/) documentation for the installation process.
 
-After installing Zitadel continue the next section:
+After installing Zitadel & [NutrixPOS Installation](/userguide/installation.html), continue the next section to add authentication.
 ## Post Zitadel installation steps
 The following steps will guide you through the Zitadel installation process throught Zitadel console GUI.
 
