@@ -14,7 +14,7 @@ export default defineConfig({
       { text: 'Downloads', link: 'https://github.com/nutrixpos/pos/releases' },
       { text: 'Docs', link: '/userguide/installation.html' },
       { text: 'About', link: '/about.html' },
-      { text: 'Connect', link: '/support.html' },
+      { text: 'Support', link: '/support.html' },
       { text: 'Sponsor', link: '/sponsor.html' },
     ],
 
