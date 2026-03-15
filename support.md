@@ -23,3 +23,6 @@ Get real-time help and connect with other users in our community.
 📲 Contact support: **support@nutrixpos.com** -->
 
 We’re committed to providing the best support experience. Thank you for being part of our community!
+
+### Business support
+Need dedicated support for your business? We're here to help! Simply send an email to support@nutrixpos.com and we'll be happy to assist you.

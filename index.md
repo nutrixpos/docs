@@ -67,7 +67,7 @@ features:
   </div>
 </div>
 
-<div class="grid pt-0 pb-8 px-0">
+<div class="grid pt-0 pb-4 px-0">
   <div class="col-12 lg:col-7 mt-3 lg:mt-0 flex justify-content-center align-items-center">
     <Image src="https://elmawardy.sirv.com/nutrixpos-docs/Nutrix3.png" alt="Image" preview />
   </div>
@@ -120,8 +120,8 @@ features:
 
 
 
-<div class="grid md:p-5 mt-3">
-  <div class="col-12 md:col-6">
+<div class="grid md:p-5 mt-8">
+  <div class="col-12 md:mt-4 md:pt-4 md:col-6">
       <h1>Stay<span class="gradiented"> free</span> stay open source</h1>
       <h5 class="mt-3" style="color:var(--vp-c-text-2)">
           Open source is more than free software—it’s about building a community that works together to create something meaningful for everyone.
