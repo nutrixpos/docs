@@ -210,7 +210,7 @@
   -webkit-text-fill-color: var(--vp-home-hero-name-color);
 }
 
-.title>span {
+.title:nth-child(1)>span {
   visibility: hidden;
 }
 

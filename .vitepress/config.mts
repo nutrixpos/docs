@@ -7,6 +7,26 @@ export default defineConfig({
   title: "NutrixPOS | Restaurants & Retail management system",
   description: "The Piece of Cake Restaurant management",
   ignoreDeadLinks: true,
+
+
+  locales: {
+    root: {
+      label: 'English',
+      lang: 'en'
+    },
+    ar: {
+      label: 'عربي',
+      lang: 'ar', // optional, will be added  as `lang` attribute on `html` tag
+      link: '/ar'
+    },
+    ru: {
+      label: 'Русский',
+      lang: 'ru', // optional, will be added  as `lang` attribute on `html` tag
+      link: '/ru'
+    },
+  },
+
+
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
@@ -40,6 +60,10 @@ export default defineConfig({
     ],
 
     logo: { light: '/logo.png', dark: 'logo-inverse.png', alt: 'logo' },
+
+    search: {
+      provider: 'local'
+    },
 
     footer: {
       message: 'Released under the GPL-2.0 License.',
