@@ -7,6 +7,11 @@ export default defineConfig({
   title: "NutrixPOS | Restaurants & Retail management system",
   description: "The Piece of Cake Restaurant management",
   ignoreDeadLinks: true,
+  themeConfig: {
+    search: {
+      provider: 'local'
+    },
+  },
   locales: {
     root: {
       label: 'English',
