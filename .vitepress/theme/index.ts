@@ -10,14 +10,12 @@ import 'primeicons/primeicons.css'
 import Aura from '@primevue/themes/aura';
 import 'primeflex/primeflex.css'
 import { Button, Image, Card,Badge } from 'primevue';
+import Layout from './Layout.vue'
+
 
 export default {
   extends: DefaultTheme,
-  Layout: () => {
-    return h(DefaultTheme.Layout, null, {
-      // https://vitepress.dev/guide/extending-default-theme#layout-slots
-    })
-  },
+  Layout,
   enhanceApp({ app, router, siteData }) {
     app.use(PrimeVue, {
         theme: {
