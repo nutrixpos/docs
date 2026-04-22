@@ -39,7 +39,6 @@ export default defineConfig({
             text: 'Documentation',
             items: [
               { text: 'Architecture', link: '/architecture' },
-              { text: 'Authentication', link: '/docs/authentication' },
               { text: 'docker-compose', link: '/getting_started' },
             ]
           }
@@ -88,7 +87,6 @@ export default defineConfig({
             text: 'الشرح',
             items: [
               { text: 'التصميم', link: '/ar/architecture' },
-              { text: 'الهوية و تسجيل الدخول', link: '/ar/docs/authentication' },
               { text: 'docker-compose', link: '/ar/getting_started' },
             ]
           }
@@ -137,7 +135,6 @@ export default defineConfig({
             text: 'Документация',
             items: [
               { text: 'Архитектура', link: '/ru/architecture' },
-              { text: 'Аутентификация', link: '/ru/docs/authentication' },
               { text: 'docker-compose', link: '/ru/getting_started' },
             ]
           }

@@ -2,12 +2,6 @@
 
 Welcome! This page demonstrates the process of installing the [Nutrix Restaurant Management System](/). Let's get your restaurant supercharged! 🚀
 
-::: info 💡 Heads Up!
-Please note that these installation packages offer the **minimal setup** required to run the system, which *doesn't* include the advanced authentication features right out of the box.
-
-Want to lock things down with authentication? 🔐 Kindly check out the [Authentication](/docs/authentication) docs page for the full scoop!
-:::
-
 ## 🛠️ Prerequisites
 
 NutrixPOS loves **MongoDB** 🍃 for storing all your delicious orders, inventory, sales, and other important data! 
