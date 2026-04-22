@@ -11,6 +11,3 @@ Nutrix هو تطبيق ويب يتكون من الأنظمة الفرعية ال
 
 #### posui (الواجهة الأمامية)
 واجهة المستخدم لـ Nutrix ، تطبيق ويب مبني في [vue](https://vuejs.org/) ، يتم تضمين الكود في دليل فرعي [pos/frontend](https://github.com/nutrixpos/pos/tree/main/frontend).
-
-#### zitadel (مصادقة OIDC)
-يتم استخدام Zitadel للتحقق من هوية مستخدمي النظام باستخدام بروتوكول [oidc](https://openid.net/developers/how-connect-works/) ، لمزيد من المعلومات تحقق من الصفحة الرسمية لـ Zitadel [https://zitadel.com/](https://zitadel.com/)

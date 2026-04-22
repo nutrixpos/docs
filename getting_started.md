@@ -21,45 +21,7 @@ cd pos
 docker-compose up --build -d
 ```
 
-
-## configure authentication **(Optional)**
-
-### 2. Configure zitadel domain name resolution.
-
-Add zitadel domain to hosts file so that zitadel domain name refers to 127.0.0.1 (localhost) by your local DNS. 
-- On **Windows** open `C:\Windows\System32\drivers\etc\hosts` and add the following entry : `127.0.0.1 zitadel`
-
-### 3. Configure frontend auth in zitadel
-Open zitadel service url, by default configured at [zitadel:8080](http://zitadel:8080) and login using the following credentials:
-
-- **username**: `zitadel-admin@zitadel.zitadel`
-- **password**: `Password1!`
-
-Create a new project and name it "nutrix"
-
-Create a "User agent" app inside "nutrix" project and set the **Redirect Settings** as follows:
-- Redirect URIs: `http://localhost:3000/auth/signinwin/zitadel`
-
-which refers to the frontend URI
-- Post Logout URIs: `http://zitadel:8080/`
-::: tip
-    ensure the trailing '/'
-:::
-
-Now save the `Client ID` found in the Configuration tab in the zitadel "User agent" app and the `Project ID` found in the URI after the /project/ section
-
-
-change the following vars inside the `docker-compose.yaml` file
-
-```
-VITE_APP_ZITADEL_PROJECT_RESOURCE_ID=<Client ID from the last step>
-VITe_APP_ZITADEL_CLIENT_ID=<Project ID from last step>
-```
-
-### 4. Configure pos api (backend) auth against zitadel
-Open zitadel console and create a new "API" app inside the nutrix, in the configuration section, add a new key and download it to `pos/mnt/zitadel-key.json`
-
-### 5. Configure autostarting
+### 2. Configure autostarting
 
 ::: info
 For **Windows** users !
@@ -115,13 +77,5 @@ sudo systemctl enable nutrix.service
 sudo systemctl start nutrix.service
 ```
 
-### 7. Authorization
-Open zitadel console at [http://zitadel:8080](https://zitadel:8080) and press on the project `nutrix` then press the `Roles` tab, then add three roles "admin", "cashier" & "chef"
-
-Now go to the `Authorizations` tab at the top of the navbar, then click on `+ New` then choose the user `zitadel-admin@zitadel.zitadel` and then add "admin" role to it
-
-### 8. Open nutrix console
+### 3. Open nutrix console
 Open nutrix console at http://localhost:3000
-
-
-
