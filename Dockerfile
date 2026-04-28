@@ -4,6 +4,7 @@ WORKDIR /app
 COPY package*.json ./
 RUN npm install
 COPY . .
+RUN npm add -D vitepress@next
 RUN npm run docs:build
 
 # Stage 2: Serve
